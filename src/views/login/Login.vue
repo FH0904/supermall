@@ -122,7 +122,7 @@
   }
   .regist{
     position: absolute;
-    top: 80%;
+    margin-top: 40%;
     left: 50%;
     transform: translate(-50%);
     font-size: 12px;

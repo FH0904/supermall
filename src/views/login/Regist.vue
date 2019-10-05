@@ -1,6 +1,7 @@
 <template>
   <div class="input">
     <nav-bar>
+      <div slot="left"><img src="~assets/img/common/back.svg" alt="" slot="left" @click="backClick"></div>
       <div slot="mid">注册</div>
     </nav-bar>
     <van-cell-group class="login-item">
@@ -124,6 +125,7 @@
   }
   .btn{
     position: absolute;
+    margin-top: 40%;
     left:50%;
     transform: translate(-50%);
     z-index: 100;
